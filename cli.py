@@ -94,8 +94,30 @@ def main():
     pr.add_argument("--log", default=None, help="optional path to write a per-action JSONL log")
     pr.set_defaults(func=cmd_run)
 
+    pk = sub.add_parser("package", help="package python source files into a submission zip")
+    pk.add_argument("--out", default="submission.zip", help="path to zip file")
+    pk.set_defaults(func=cmd_package)
+
     args = p.parse_args()
     args.func(args)
+
+
+def cmd_package(args):
+    import zipfile
+    import os
+    zip_path = args.out
+    with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zf:
+        for root, _, files in os.walk("enteland"):
+            if "__pycache__" in root:
+                continue
+            for file in files:
+                if file.endswith(".py"):
+                    full = os.path.join(root, file)
+                    zf.write(full, arcname=full)
+        for extra in ["cli.py", "resources.json"]:
+            if os.path.exists(extra):
+                zf.write(extra, arcname=extra)
+    print(f"Created submission ZIP at {zip_path}")
 
 
 if __name__ == "__main__":

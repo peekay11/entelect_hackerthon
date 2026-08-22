@@ -1,0 +1,6270 @@
+{
+  "actions": [
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Demacia"
+    },
+    {
+      "type": "craft",
+      "item": "stone-works",
+      "quantity": 30
+    },
+    {
+      "type": "sell",
+      "item": "stone-works",
+      "quantity": 30
+    },
+    {
+      "type": "sell",
+      "item": "fish",
+      "quantity": 74
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "thatch",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Demacia"
+    },
+    {
+      "type": "build",
+      "upgrade": "farmhouse"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "thatch",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "fencing",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Demacia"
+    },
+    {
+      "type": "build",
+      "upgrade": "fertilised-fields"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 1
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 3
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Demacia"
+    },
+    {
+      "type": "build",
+      "upgrade": "rec-center"
+    },
+    {
+      "type": "sell",
+      "item": "stone",
+      "quantity": 53
+    },
+    {
+      "type": "sell",
+      "item": "wheat",
+      "quantity": 111
+    },
+    {
+      "type": "sell",
+      "item": "fish",
+      "quantity": 142
+    },
+    {
+      "type": "sell",
+      "item": "sheep",
+      "quantity": 102
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "stone-blocks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 5
+    },
+    {
+      "type": "build",
+      "upgrade": "fire-station"
+    },
+    {
+      "type": "sell",
+      "item": "fish",
+      "quantity": 32
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Demacia"
+    },
+    {
+      "type": "craft",
+      "item": "stone-works",
+      "quantity": 30
+    },
+    {
+      "type": "sell",
+      "item": "stone-works",
+      "quantity": 30
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 6
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "kiln-glass",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 6
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Demacia"
+    },
+    {
+      "type": "build",
+      "upgrade": "school"
+    },
+    {
+      "type": "sell",
+      "item": "wheat",
+      "quantity": 111
+    },
+    {
+      "type": "sell",
+      "item": "fish",
+      "quantity": 161
+    },
+    {
+      "type": "sell",
+      "item": "sheep",
+      "quantity": 100
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Demacia"
+    },
+    {
+      "type": "craft",
+      "item": "stone-works",
+      "quantity": 30
+    },
+    {
+      "type": "sell",
+      "item": "stone-works",
+      "quantity": 30
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "kiln-glass",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 5
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Demacia"
+    },
+    {
+      "type": "build",
+      "upgrade": "library"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "fencing",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Demacia"
+    },
+    {
+      "type": "build",
+      "upgrade": "woodlands"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "stone-blocks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Demacia"
+    },
+    {
+      "type": "build",
+      "upgrade": "quarry"
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 4
+    },
+    {
+      "type": "build",
+      "upgrade": "pottery-house"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "fencing",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "nets",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Demacia"
+    },
+    {
+      "type": "build",
+      "upgrade": "pier"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "thatch",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "build",
+      "upgrade": "farmhouse"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "thatch",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "fencing",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "build",
+      "upgrade": "fertilised-fields"
+    },
+    {
+      "type": "sell",
+      "item": "stone",
+      "quantity": 87
+    },
+    {
+      "type": "sell",
+      "item": "wheat",
+      "quantity": 229
+    },
+    {
+      "type": "sell",
+      "item": "fish",
+      "quantity": 399
+    },
+    {
+      "type": "sell",
+      "item": "sheep",
+      "quantity": 196
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 1
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 3
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "build",
+      "upgrade": "rec-center"
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "stone-blocks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 5
+    },
+    {
+      "type": "build",
+      "upgrade": "fire-station"
+    },
+    {
+      "type": "sell",
+      "item": "wheat",
+      "quantity": 46
+    },
+    {
+      "type": "sell",
+      "item": "fish",
+      "quantity": 75
+    },
+    {
+      "type": "sell",
+      "item": "sheep",
+      "quantity": 34
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Demacia"
+    },
+    {
+      "type": "craft",
+      "item": "stone-works",
+      "quantity": 30
+    },
+    {
+      "type": "sell",
+      "item": "stone-works",
+      "quantity": 30
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 6
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "kiln-glass",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 6
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "build",
+      "upgrade": "school"
+    },
+    {
+      "type": "sell",
+      "item": "wheat",
+      "quantity": 93
+    },
+    {
+      "type": "sell",
+      "item": "fish",
+      "quantity": 161
+    },
+    {
+      "type": "sell",
+      "item": "sheep",
+      "quantity": 88
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "kiln-glass",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 5
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "build",
+      "upgrade": "library"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "fencing",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "build",
+      "upgrade": "woodlands"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "stone-blocks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "build",
+      "upgrade": "quarry"
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 4
+    },
+    {
+      "type": "build",
+      "upgrade": "pottery-house"
+    },
+    {
+      "type": "sell",
+      "item": "stone",
+      "quantity": 427
+    },
+    {
+      "type": "sell",
+      "item": "wheat",
+      "quantity": 93
+    },
+    {
+      "type": "sell",
+      "item": "fish",
+      "quantity": 161
+    },
+    {
+      "type": "sell",
+      "item": "sheep",
+      "quantity": 80
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "fencing",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "nets",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "build",
+      "upgrade": "pier"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "thatch",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "build",
+      "upgrade": "farmhouse"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "thatch",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "fencing",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "build",
+      "upgrade": "fertilised-fields"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 1
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 3
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "build",
+      "upgrade": "rec-center"
+    },
+    {
+      "type": "sell",
+      "item": "stone",
+      "quantity": 123
+    },
+    {
+      "type": "sell",
+      "item": "wheat",
+      "quantity": 230
+    },
+    {
+      "type": "sell",
+      "item": "fish",
+      "quantity": 491
+    },
+    {
+      "type": "sell",
+      "item": "sheep",
+      "quantity": 90
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "stone-blocks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 5
+    },
+    {
+      "type": "build",
+      "upgrade": "fire-station"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Demacia"
+    },
+    {
+      "type": "travel",
+      "destination": "N7"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Demacia"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 6
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "kiln-glass",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 6
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "build",
+      "upgrade": "school"
+    },
+    {
+      "type": "sell",
+      "item": "stone",
+      "quantity": 40
+    },
+    {
+      "type": "sell",
+      "item": "wheat",
+      "quantity": 66
+    },
+    {
+      "type": "sell",
+      "item": "fish",
+      "quantity": 121
+    },
+    {
+      "type": "sell",
+      "item": "sheep",
+      "quantity": 52
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Demacia"
+    },
+    {
+      "type": "craft",
+      "item": "stone-works",
+      "quantity": 30
+    },
+    {
+      "type": "sell",
+      "item": "stone-works",
+      "quantity": 30
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "kiln-glass",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 5
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "build",
+      "upgrade": "library"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "fencing",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "build",
+      "upgrade": "woodlands"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "stone-blocks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "build",
+      "upgrade": "quarry"
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 4
+    },
+    {
+      "type": "build",
+      "upgrade": "pottery-house"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "fencing",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "nets",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "build",
+      "upgrade": "pier"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "thatch",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia"
+    },
+    {
+      "type": "build",
+      "upgrade": "farmhouse"
+    },
+    {
+      "type": "sell",
+      "item": "stone",
+      "quantity": 187
+    },
+    {
+      "type": "sell",
+      "item": "wheat",
+      "quantity": 241
+    },
+    {
+      "type": "sell",
+      "item": "fish",
+      "quantity": 597
+    },
+    {
+      "type": "sell",
+      "item": "sheep",
+      "quantity": 568
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "thatch",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "fencing",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia"
+    },
+    {
+      "type": "build",
+      "upgrade": "fertilised-fields"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 1
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 3
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia"
+    },
+    {
+      "type": "build",
+      "upgrade": "rec-center"
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "stone-blocks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 5
+    },
+    {
+      "type": "build",
+      "upgrade": "fire-station"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 6
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "kiln-glass",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 6
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia"
+    },
+    {
+      "type": "build",
+      "upgrade": "school"
+    },
+    {
+      "type": "sell",
+      "item": "stone",
+      "quantity": 103
+    },
+    {
+      "type": "sell",
+      "item": "wheat",
+      "quantity": 133
+    },
+    {
+      "type": "sell",
+      "item": "fish",
+      "quantity": 262
+    },
+    {
+      "type": "sell",
+      "item": "sheep",
+      "quantity": 144
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover"
+    },
+    {
+      "type": "travel",
+      "destination": "N4"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "N13"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "kiln-glass",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 5
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia"
+    },
+    {
+      "type": "build",
+      "upgrade": "library"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "fencing",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia"
+    },
+    {
+      "type": "build",
+      "upgrade": "woodlands"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "stone-blocks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia"
+    },
+    {
+      "type": "build",
+      "upgrade": "quarry"
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 4
+    },
+    {
+      "type": "build",
+      "upgrade": "pottery-house"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "fencing",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "nets",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia"
+    },
+    {
+      "type": "build",
+      "upgrade": "pier"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "thatch",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover"
+    },
+    {
+      "type": "build",
+      "upgrade": "farmhouse"
+    },
+    {
+      "type": "travel",
+      "destination": "N14"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "thatch",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "fencing",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover"
+    },
+    {
+      "type": "build",
+      "upgrade": "fertilised-fields"
+    },
+    {
+      "type": "sell",
+      "item": "stone",
+      "quantity": 204
+    },
+    {
+      "type": "sell",
+      "item": "wheat",
+      "quantity": 237
+    },
+    {
+      "type": "sell",
+      "item": "fish",
+      "quantity": 807
+    },
+    {
+      "type": "sell",
+      "item": "sheep",
+      "quantity": 255
+    },
+    {
+      "type": "travel",
+      "destination": "N14"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 1
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 3
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover"
+    },
+    {
+      "type": "build",
+      "upgrade": "rec-center"
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "stone-blocks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 5
+    },
+    {
+      "type": "build",
+      "upgrade": "fire-station"
+    },
+    {
+      "type": "travel",
+      "destination": "N14"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 6
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "kiln-glass",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 6
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover"
+    },
+    {
+      "type": "build",
+      "upgrade": "school"
+    },
+    {
+      "type": "travel",
+      "destination": "N4"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "N13"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "kiln-glass",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 5
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover"
+    },
+    {
+      "type": "build",
+      "upgrade": "library"
+    },
+    {
+      "type": "travel",
+      "destination": "N14"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "fencing",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover"
+    },
+    {
+      "type": "build",
+      "upgrade": "woodlands"
+    },
+    {
+      "type": "sell",
+      "item": "stone",
+      "quantity": 146
+    },
+    {
+      "type": "sell",
+      "item": "wheat",
+      "quantity": 191
+    },
+    {
+      "type": "sell",
+      "item": "fish",
+      "quantity": 402
+    },
+    {
+      "type": "sell",
+      "item": "sheep",
+      "quantity": 195
+    },
+    {
+      "type": "travel",
+      "destination": "N14"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "stone-blocks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover"
+    },
+    {
+      "type": "build",
+      "upgrade": "quarry"
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 4
+    },
+    {
+      "type": "build",
+      "upgrade": "pottery-house"
+    },
+    {
+      "type": "travel",
+      "destination": "N14"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "fencing",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "nets",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover"
+    },
+    {
+      "type": "build",
+      "upgrade": "pier"
+    },
+    {
+      "type": "travel",
+      "destination": "N14"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "thatch",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Freljord"
+    },
+    {
+      "type": "build",
+      "upgrade": "farmhouse"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "thatch",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "fencing",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Freljord"
+    },
+    {
+      "type": "build",
+      "upgrade": "fertilised-fields"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 1
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 3
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Freljord"
+    },
+    {
+      "type": "build",
+      "upgrade": "rec-center"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "stone-blocks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 5
+    },
+    {
+      "type": "travel",
+      "destination": "Freljord"
+    },
+    {
+      "type": "build",
+      "upgrade": "fire-station"
+    },
+    {
+      "type": "sell",
+      "item": "stone",
+      "quantity": 174
+    },
+    {
+      "type": "sell",
+      "item": "wheat",
+      "quantity": 218
+    },
+    {
+      "type": "sell",
+      "item": "fish",
+      "quantity": 734
+    },
+    {
+      "type": "sell",
+      "item": "sheep",
+      "quantity": 653
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 6
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "kiln-glass",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 6
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Freljord"
+    },
+    {
+      "type": "build",
+      "upgrade": "school"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Demacia"
+    },
+    {
+      "type": "travel",
+      "destination": "N7"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Demacia"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "kiln-glass",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 5
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Freljord"
+    },
+    {
+      "type": "build",
+      "upgrade": "library"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "fencing",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Freljord"
+    },
+    {
+      "type": "build",
+      "upgrade": "woodlands"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "stone-blocks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Freljord"
+    },
+    {
+      "type": "build",
+      "upgrade": "quarry"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 4
+    },
+    {
+      "type": "travel",
+      "destination": "Freljord"
+    },
+    {
+      "type": "build",
+      "upgrade": "pottery-house"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "fencing",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "nets",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Freljord"
+    },
+    {
+      "type": "build",
+      "upgrade": "pier"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "thatch",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover"
+    },
+    {
+      "type": "travel",
+      "destination": "N1"
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun"
+    },
+    {
+      "type": "build",
+      "upgrade": "farmhouse"
+    },
+    {
+      "type": "travel",
+      "destination": "N1"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover"
+    },
+    {
+      "type": "travel",
+      "destination": "N14"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "thatch",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "fencing",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover"
+    },
+    {
+      "type": "travel",
+      "destination": "N1"
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun"
+    },
+    {
+      "type": "build",
+      "upgrade": "fertilised-fields"
+    },
+    {
+      "type": "travel",
+      "destination": "N1"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover"
+    },
+    {
+      "type": "travel",
+      "destination": "N14"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 1
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 3
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover"
+    },
+    {
+      "type": "travel",
+      "destination": "N1"
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun"
+    },
+    {
+      "type": "build",
+      "upgrade": "rec-center"
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "stone-blocks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 5
+    },
+    {
+      "type": "build",
+      "upgrade": "fire-station"
+    },
+    {
+      "type": "sell",
+      "item": "stone",
+      "quantity": 301
+    },
+    {
+      "type": "sell",
+      "item": "wheat",
+      "quantity": 367
+    },
+    {
+      "type": "sell",
+      "item": "fish",
+      "quantity": 1569
+    },
+    {
+      "type": "sell",
+      "item": "sheep",
+      "quantity": 455
+    },
+    {
+      "type": "travel",
+      "destination": "N1"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover"
+    },
+    {
+      "type": "travel",
+      "destination": "N14"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 6
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "kiln-glass",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 6
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover"
+    },
+    {
+      "type": "travel",
+      "destination": "N1"
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun"
+    },
+    {
+      "type": "build",
+      "upgrade": "school"
+    },
+    {
+      "type": "travel",
+      "destination": "N1"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover"
+    },
+    {
+      "type": "travel",
+      "destination": "N14"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "kiln-glass",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 5
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover"
+    },
+    {
+      "type": "travel",
+      "destination": "N1"
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun"
+    },
+    {
+      "type": "build",
+      "upgrade": "library"
+    },
+    {
+      "type": "travel",
+      "destination": "N1"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover"
+    },
+    {
+      "type": "travel",
+      "destination": "N14"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "fencing",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover"
+    },
+    {
+      "type": "travel",
+      "destination": "N1"
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun"
+    },
+    {
+      "type": "build",
+      "upgrade": "woodlands"
+    },
+    {
+      "type": "travel",
+      "destination": "N1"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover"
+    },
+    {
+      "type": "travel",
+      "destination": "N14"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "stone-blocks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover"
+    },
+    {
+      "type": "travel",
+      "destination": "N1"
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun"
+    },
+    {
+      "type": "build",
+      "upgrade": "quarry"
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 4
+    },
+    {
+      "type": "build",
+      "upgrade": "pottery-house"
+    },
+    {
+      "type": "travel",
+      "destination": "N1"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover"
+    },
+    {
+      "type": "travel",
+      "destination": "N14"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "fencing",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "nets",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover"
+    },
+    {
+      "type": "travel",
+      "destination": "N1"
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun"
+    },
+    {
+      "type": "build",
+      "upgrade": "pier"
+    },
+    {
+      "type": "travel",
+      "destination": "N1"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover"
+    },
+    {
+      "type": "travel",
+      "destination": "N14"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "thatch",
+      "quantity": 2
+    },
+    {
+      "type": "build",
+      "upgrade": "farmhouse"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "thatch",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "fencing",
+      "quantity": 2
+    },
+    {
+      "type": "build",
+      "upgrade": "fertilised-fields"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 1
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 3
+    },
+    {
+      "type": "build",
+      "upgrade": "rec-center"
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "stone-blocks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 5
+    },
+    {
+      "type": "build",
+      "upgrade": "fire-station"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "N13"
+    },
+    {
+      "type": "travel",
+      "destination": "N4"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "N13"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 6
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "kiln-glass",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 6
+    },
+    {
+      "type": "build",
+      "upgrade": "school"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "N13"
+    },
+    {
+      "type": "travel",
+      "destination": "N4"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "N13"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "kiln-glass",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 5
+    },
+    {
+      "type": "build",
+      "upgrade": "library"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "fencing",
+      "quantity": 2
+    },
+    {
+      "type": "build",
+      "upgrade": "woodlands"
+    },
+    {
+      "type": "sell",
+      "item": "stone",
+      "quantity": 344
+    },
+    {
+      "type": "sell",
+      "item": "wheat",
+      "quantity": 426
+    },
+    {
+      "type": "sell",
+      "item": "fish",
+      "quantity": 1684
+    },
+    {
+      "type": "sell",
+      "item": "sheep",
+      "quantity": 538
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "stone-blocks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 2
+    },
+    {
+      "type": "build",
+      "upgrade": "quarry"
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 4
+    },
+    {
+      "type": "build",
+      "upgrade": "pottery-house"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "fencing",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "nets",
+      "quantity": 2
+    },
+    {
+      "type": "build",
+      "upgrade": "pier"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "thatch",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover"
+    },
+    {
+      "type": "travel",
+      "destination": "N1"
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun"
+    },
+    {
+      "type": "travel",
+      "destination": "Targon"
+    },
+    {
+      "type": "build",
+      "upgrade": "farmhouse"
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun"
+    },
+    {
+      "type": "travel",
+      "destination": "N1"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover"
+    },
+    {
+      "type": "travel",
+      "destination": "N14"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "thatch",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "fencing",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover"
+    },
+    {
+      "type": "travel",
+      "destination": "N1"
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun"
+    },
+    {
+      "type": "travel",
+      "destination": "Targon"
+    },
+    {
+      "type": "build",
+      "upgrade": "fertilised-fields"
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun"
+    },
+    {
+      "type": "travel",
+      "destination": "N1"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover"
+    },
+    {
+      "type": "travel",
+      "destination": "N14"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 1
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 3
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover"
+    },
+    {
+      "type": "travel",
+      "destination": "N1"
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun"
+    },
+    {
+      "type": "travel",
+      "destination": "Targon"
+    },
+    {
+      "type": "build",
+      "upgrade": "rec-center"
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "stone-blocks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 5
+    },
+    {
+      "type": "build",
+      "upgrade": "fire-station"
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun"
+    },
+    {
+      "type": "travel",
+      "destination": "N1"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover"
+    },
+    {
+      "type": "travel",
+      "destination": "N4"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "N13"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 6
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "kiln-glass",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 6
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover"
+    },
+    {
+      "type": "travel",
+      "destination": "N1"
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun"
+    },
+    {
+      "type": "travel",
+      "destination": "Targon"
+    },
+    {
+      "type": "build",
+      "upgrade": "school"
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun"
+    },
+    {
+      "type": "travel",
+      "destination": "N1"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover"
+    },
+    {
+      "type": "travel",
+      "destination": "N4"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "N13"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "kiln-glass",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 5
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover"
+    },
+    {
+      "type": "travel",
+      "destination": "N1"
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun"
+    },
+    {
+      "type": "travel",
+      "destination": "Targon"
+    },
+    {
+      "type": "build",
+      "upgrade": "library"
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun"
+    },
+    {
+      "type": "travel",
+      "destination": "N1"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover"
+    },
+    {
+      "type": "travel",
+      "destination": "N14"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "fencing",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover"
+    },
+    {
+      "type": "travel",
+      "destination": "N1"
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun"
+    },
+    {
+      "type": "travel",
+      "destination": "Targon"
+    },
+    {
+      "type": "build",
+      "upgrade": "woodlands"
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun"
+    },
+    {
+      "type": "travel",
+      "destination": "N1"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover"
+    },
+    {
+      "type": "travel",
+      "destination": "N14"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "stone-blocks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover"
+    },
+    {
+      "type": "travel",
+      "destination": "N1"
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun"
+    },
+    {
+      "type": "travel",
+      "destination": "Targon"
+    },
+    {
+      "type": "build",
+      "upgrade": "quarry"
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 4
+    },
+    {
+      "type": "build",
+      "upgrade": "pottery-house"
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun"
+    },
+    {
+      "type": "travel",
+      "destination": "N1"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover"
+    },
+    {
+      "type": "travel",
+      "destination": "N14"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "fencing",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "nets",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover"
+    },
+    {
+      "type": "travel",
+      "destination": "N1"
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun"
+    },
+    {
+      "type": "travel",
+      "destination": "Targon"
+    },
+    {
+      "type": "build",
+      "upgrade": "pier"
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun"
+    },
+    {
+      "type": "travel",
+      "destination": "N1"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover"
+    },
+    {
+      "type": "travel",
+      "destination": "N14"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "thatch",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "travel",
+      "destination": "Noxus"
+    },
+    {
+      "type": "build",
+      "upgrade": "farmhouse"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "thatch",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "fencing",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "travel",
+      "destination": "Noxus"
+    },
+    {
+      "type": "build",
+      "upgrade": "fertilised-fields"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 1
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 3
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "travel",
+      "destination": "Noxus"
+    },
+    {
+      "type": "build",
+      "upgrade": "rec-center"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "stone-blocks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 5
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "travel",
+      "destination": "Noxus"
+    },
+    {
+      "type": "build",
+      "upgrade": "fire-station"
+    },
+    {
+      "type": "sell",
+      "item": "stone",
+      "quantity": 439
+    },
+    {
+      "type": "sell",
+      "item": "wheat",
+      "quantity": 1068
+    },
+    {
+      "type": "sell",
+      "item": "fish",
+      "quantity": 2386
+    },
+    {
+      "type": "sell",
+      "item": "sheep",
+      "quantity": 1738
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 6
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "kiln-glass",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 6
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "travel",
+      "destination": "Noxus"
+    },
+    {
+      "type": "build",
+      "upgrade": "school"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "N13"
+    },
+    {
+      "type": "travel",
+      "destination": "N4"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "N13"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "kiln-glass",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 5
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "travel",
+      "destination": "Noxus"
+    },
+    {
+      "type": "build",
+      "upgrade": "library"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "fencing",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "travel",
+      "destination": "Noxus"
+    },
+    {
+      "type": "build",
+      "upgrade": "woodlands"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "stone-blocks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "travel",
+      "destination": "Noxus"
+    },
+    {
+      "type": "build",
+      "upgrade": "quarry"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 4
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "travel",
+      "destination": "Noxus"
+    },
+    {
+      "type": "build",
+      "upgrade": "pottery-house"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "fencing",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "nets",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "travel",
+      "destination": "Noxus"
+    },
+    {
+      "type": "build",
+      "upgrade": "pier"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "stew",
+      "quantity": 262
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "sell",
+      "item": "stew",
+      "quantity": 262
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "stone-works",
+      "quantity": 79
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Demacia"
+    },
+    {
+      "type": "sell",
+      "item": "stone-works",
+      "quantity": 79
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 119
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 119
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "craft",
+      "item": "wool-garments",
+      "quantity": 38
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Freljord"
+    },
+    {
+      "type": "sell",
+      "item": "wool-garments",
+      "quantity": 38
+    },
+    {
+      "type": "sell",
+      "item": "stone",
+      "quantity": 219
+    },
+    {
+      "type": "sell",
+      "item": "wheat",
+      "quantity": 183
+    },
+    {
+      "type": "sell",
+      "item": "fish",
+      "quantity": 1792
+    },
+    {
+      "type": "sell",
+      "item": "sheep",
+      "quantity": 732
+    },
+    {
+      "type": "sell",
+      "item": "clay",
+      "quantity": 954
+    }
+  ]
+}
