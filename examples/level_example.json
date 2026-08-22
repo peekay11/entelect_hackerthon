@@ -1,0 +1,56 @@
+{
+  "run": {
+    "total_ticks": 500,
+    "starting_town": "Demacia",
+    "starting_enteloot": 200
+  },
+  "towns": {
+    "Demacia": {
+      "production": { "rate": 10, "resources": { "wheat": 2, "sheep": 2 } },
+      "upgrades": [],
+      "affinities": ["crafting"],
+      "item-rates": {
+        "bread": 10, "pottery": 50, "fish-n-chips": 30,
+        "wooden-crafts": 40, "stone-works": 60, "wool-garments": 30,
+        "stew": 30, "furniture": 50, "roof-tiles": 55
+      },
+      "enteloot": { "rate": 5, "amount": 1000 }
+    },
+    "Noxus": {
+      "production": { "rate": 10, "resources": { "stone": 2, "wood": 2 } },
+      "upgrades": [],
+      "affinities": [],
+      "item-rates": {
+        "bread": 40, "pottery": 50, "fish-n-chips": 50,
+        "wooden-crafts": 20, "stone-works": 40, "wool-garments": 40,
+        "stew": 50, "furniture": 35, "roof-tiles": 40
+      },
+      "enteloot": { "rate": 7, "amount": 2000 }
+    },
+    "Piltover": {
+      "production": { "rate": 10, "resources": { "fish": 2, "sheep": 2 } },
+      "upgrades": [],
+      "affinities": ["crafting"],
+      "item-rates": {
+        "bread": 40, "pottery": 70, "fish-n-chips": 10,
+        "wooden-crafts": 50, "stone-works": 60, "wool-garments": 60,
+        "stew": 25, "furniture": 65, "roof-tiles": 70
+      },
+      "enteloot": { "rate": 2, "amount": 400 }
+    }
+  },
+  "nodes": {
+    "N1": { "type": "fields", "resource": "wheat", "yield": 6, "gather-time": 2 },
+    "N2": { "type": "forest", "resource": "wood", "yield": 5, "gather-time": 2 },
+    "N3": { "type": "fishing-grounds", "resource": "fish", "yield": 4, "gather-time": 2 }
+  },
+  "routes": [
+    { "between": ["Demacia", "N1"], "weight": 2, "toll": 0 },
+    { "between": ["N1", "N2"], "weight": 1, "toll": 0 },
+    { "between": ["N2", "Noxus"], "weight": 3, "toll": 0 },
+    { "between": ["Demacia", "Piltover"], "weight": 5, "toll": 0 },
+    { "between": ["Demacia", "Piltover"], "weight": 2, "toll": 50 },
+    { "between": ["Piltover", "N3"], "weight": 2, "toll": 0 },
+    { "between": ["Demacia", "Noxus"], "weight": 4, "toll": 0 }
+  ]
+}

@@ -1,0 +1,205 @@
+Page 8 of 17
+Library
+Enteloot amount +50%
+5 bricks + 5 planks + 2 kiln-glass
+2500
+5 ticks
+School
+6000
+
+All civic upgrade prerequisites are evaluated per town. For example, a Rec-center requiring one
+production upgrade, or a Fire-station requiring two production upgrades, must satisfy those
+prerequisites in the same town where the civic upgrade is being built.
+
+If multiple Enteloot amount bonuses are active on a town (for example Rec-center, School, and
+Library), their percentage bonuses are added together before being applied. If a production
+upgrade or upkeep effect also modifies Enteloot generation, those effects are applied in addition to
+the combined percentage bonus.
+
+The police-station requires iron-fittings and is therefore only buildable from Level 3.
+
+Tools (Level 3+)
+
+Tools are craftable items that act as permanent buffs for the rest of the run. They are never sold,
+are not consumed, and each tool can be crafted at most once per run. Tool crafting follows the
+standard craft timing rule (2 ticks, 1 with crafting affinity).
+
+Tool Inputs Effect
+Boots 2 iron-fittings + 2 rope All travel times reduced by 1 tick (minimum 1) per edge
+Pickaxe 2 iron-fittings + 2 planks All gather times reduced by 1 tick (minimum 1)
+
+Because both tools require iron-fittings, acquiring them means a trip to a Mine node first. Tools
+change the effective weights of the map, so routes worth planning before boots may not be the
+routes worth planning after.
+
+Activities
+
+All activities consume ticks and can only be performed if all prerequisites are met at execution time.
+
+Activity Where Ticks Description
+Travel Between connected vertices Edge weight Move to a connected town or node. Fast routes charge a toll.
+Buy At any town 1 Buy resources the town produces, at buy price.
+Sell At any town 1 Sell raw resources at their global sell price, or crafted goods at the current town's item-rate. Every town supports selling every crafted good.
+Craft At any town 2 per item (1 with crafting affinity) Convert resources into recipe items or components. Quantity n costs n × craft time and n sets of inputs.
+Build At any town Per upgrade Consume components and Enteloot to construct an upgrade at this town.
+Gather At a resource node Node gather-time (2, or 3 at mines) Perform the node's gathering activity and receive its yield.
+Upkeep At any town 5 Doubles the current town's Enteloot production for 50 ticks. Triggering again while active refreshes the duration rather than stacking the multiplier.
+
+Levels
+
+Each level file defines the characteristics of the run, including the map, towns, nodes, recipes,
+upgrades, and run parameters. Each level adds new factors while building on the previous ones (i.e.
+Level 2 contains the rules from Level 1, in addition to its own).
+
+Data organisation: Resources, Recipes, Construction Components, Upgrades, and Tools (the
+tables under Constraints) are global constants: their definitions are identical across every level and
+are not part of the level JSON file. A level file varies only run parameters, towns, nodes, and routes
+(see the JSON level file example); which mechanics are enabled (crafting, building, fast routes,
+mines, tools, upkeep) is determined by the level number itself, not by per-level data.
+
+Level 1
+Basic rules to help you get familiar with the problem. Crafting and Building are disabled. Your focus
+will be on the following:
+• Navigating the map and reading edge weights.
+• Choosing between waiting for town trickle, travelling to gather at nodes, and buying outright.
+• Selling resources at the towns that produce them least.
+• Managing the tick budget across travel, gathering, and trading.
+
+Level 2
+Crafting and Building are introduced. In addition to Level 1, focus on:
+• Crafting resources into goods and hauling them to the towns that pay most.
+• Crafting construction components and their dependency chains.
+• Building production upgrades early enough that their boosted trickle pays back.
+• Sequencing civic upgrades through their prerequisites to drive score.
+
+Level 3
+Fast routes, Mine nodes, and tools are introduced. In addition to previous levels, focus on:
+• Deciding when a toll is worth the ticks it saves.
+• Gathering ore at Mine nodes, the only resource that cannot be bought.
+• Crafting iron-fittings to unlock tools and the police-station.
+• Investing early ticks in boots or a pickaxe to compound savings over the rest of the run.
+• Re-planning routes as tools change the effective weights of the map.
+
+Level 4
+Upkeep is introduced on the widest map. In addition to previous levels, focus on:
+• Deciding when spending 5 ticks on an upkeep boost pays back in extra Enteloot production.
+• Choosing which towns to boost, and timing boosts over high-value production windows.
+• Weighing upkeep-boost ticks against construction and trade for the final score.
+
+Scoring
+
+All scoring inputs are taken from the state at the final tick, except invested Enteloot, which
+accumulates during the run.
+
+Level 1
+Contribution to the score is your generation of Enteloot, as well as the value of the items you hold
+at the end. A multiplier will be applied based on the number of items you sold.
+
+Level 2 & Level 3
+Infrastructure becomes the primary driver. Development spread across towns earns a multiplier.
+
+Level 4
+Upkeep activity is unlocked. Upkeep does not add a dedicated scoring term; it affects the base
+score only indirectly: the 5 ticks spent triggering a boost raise a town's Enteloot production (and
+thus overall Enteloot), but those ticks are unavailable for travel, gathering, crafting, or trading
+elsewhere.
+
+Submissions
+
+Participants must submit one solution per level on the Entelect Hackathon website. Each
+submission must include:
+• A ZIP containing the source code used for that level
+• A .txt file containing the JSON output for that level
+
+The solution must be deterministic: given the same input, the program must always produce the
+same output. During validation, the submitted source code will be executed to reproduce the
+results provided in the submission. If the source code does not produce the same output as the
+submitted file, the submission will be considered invalid.
+
+The .txt file must contain a valid JSON object describing the ordered list of actions for the run:
+{
+"actions": [
+{ "type": "travel", "destination": "N1" },
+{ "type": "gather" },
+{ "type": "gather" },
+{ "type": "travel", "destination": "Demacia" },
+{ "type": "craft", "item": "bread", "quantity": 3 },
+{ "type": "travel", "destination": "Piltover" },
+{ "type": "sell", "item": "bread", "quantity": 3 },
+{ "type": "buy", "item": "fish", "quantity": 4 },
+{ "type": "craft", "item": "fish-n-chips", "quantity": 2 },
+{ "type": "sell", "item": "fish-n-chips", "quantity": 2 },
+{ "type": "build", "upgrade": "farmhouse" }
+]
+}
+
+Action fields:
+travel: destination, fast (optional, default false)
+gather: none (uses the current node's activity)
+buy: item, quantity
+sell: item, quantity
+craft: item, quantity
+build: upgrade
+upkeep: none (boosts the current town)
+
+Submission validity: The submission is rejected outright with a score of 0, and nothing is
+simulated, if the .txt file is not valid JSON or if the top-level actions key is missing or is not an
+array. Once a well-formed actions array exists, every entry in it is handled per Assumption 4: An
+entry missing a required field for its type, with a field of the wrong type, or with an unrecognized
+type, is simply an invalid action - skipped, 1 tick consumed, logged, and the run continues.
+
+The engine returns a per-action log showing ticks consumed, resources and Enteloot gained or
+spent, and running totals, so you can analyse your inputs against the outcome received.
+
+Worked Example
+
+Starting at Demacia (wheat trickle 2 per 10 ticks) with 200 Enteloot. Node N1 (Fields, yield 6) is 2
+ticks away. Piltover pays 40 per bread and is 3 ticks from Demacia.
+
+# Action Ticks Running tick Enteloot Inventory
+1 travel N1 2 2 200 0
+2 gather 2 4 200 6 wheat
+3 gather 2 6 200 12 wheat
+4 travel Demacia 2 8 200 12 wheat
+5 craft bread ×4 4 12 200 4 bread
+6 travel Piltover 3 15 200 4 bread
+7 sell bread ×4 1 16 360 0
+
+Sixteen ticks turn 12 gathered wheat into 160 Enteloot of profit. Selling the raw wheat instead
+would have earned 24. Crafting and hauling multiplied the return by more than six times, and
+crafting at the affinity town rather than at Piltover saved 4 ticks.
+
+Calculations & Algorithms
+Accumulated trickle at any tick:
+accumulated = floor(current_tick / rate) × amount
+
+Ticks to fulfil a recipe from a node trip, useful for route planning:
+trip_ticks = travel_to_node + ceil(inputs_needed / node_yield) × gather_time + travel_back + quantity × craft_time
+where craft_time is 2, or 1 at a town with crafting affinity.
+
+Penalties
+You will incur penalties for the following:
+• Invalid actions are skipped and consume 1 tick. Time is the scarcest resource; wasted
+ticks are the penalty.
+• Fast route tolls are charged on entry. Attempting a fast route without sufficient Enteloot is
+an invalid action.
+
+Ideas
+Transportation Buildings
+Upgrade Effect Components Enteloot Build time Prerequisite Score value
+Stable Unlocks Horse travel. Travel time − 2 (minimum 2 ticks). 6 planks + 2 bricks + 2 rope 900 4 ticks Any 1 Civic upgrade 2,500
+Port Unlocks Port travel. Travel time − 5 (minimum 2 ticks). 8 planks + 6 bricks + 2 iron + 2 rope + 1 Net 1,600 6 ticks Stable 5,000
+Railway Station Unlocks Train travel. Travel time − 8 (minimum 2 ticks). 12 bricks + 8 Stone-blocks + 6 Iron-fittings + 4 Kiln-glass 3,000 8 ticks Pier 8,500
+
+Unlimited Upgrades
+Possibly allow unlimited upgrades per town instead of just one of each per town.
+
+Other distribution multiplier equation
+distribution_multiplier = number_of_upgrades/total_number_of_possible_upgrades
+
+Bonus for Upkeep/Boosting
+Add a bonus to level 4 to encourage boosting so that it is mot ignored entirely.
+
+Research affinity
+Re-look at what research affinity is, and what it does. (A research affinity reduces Research
+resource costs at that town). , add this in specification.txt and finetiune teh game to it

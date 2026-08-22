@@ -1,0 +1,38 @@
+{
+  "run": {
+    "total_ticks": 500,
+    "starting_town": "Demacia",
+    "starting_enteloot": 200
+  },
+  "towns": {
+    "Demacia": {
+      "production": { "rate": 10000, "resources": { "wheat": 2 } },
+      "upgrades": [],
+      "affinities": ["crafting"],
+      "item-rates": {
+        "bread": 10, "pottery": 50, "fish-n-chips": 30,
+        "wooden-crafts": 40, "stone-works": 60, "wool-garments": 30,
+        "stew": 30, "furniture": 50, "roof-tiles": 55
+      },
+      "enteloot": { "rate": 10000, "amount": 100 }
+    },
+    "Piltover": {
+      "production": { "rate": 10, "resources": { "fish": 2 } },
+      "upgrades": [],
+      "affinities": [],
+      "item-rates": {
+        "bread": 40, "pottery": 70, "fish-n-chips": 10,
+        "wooden-crafts": 50, "stone-works": 60, "wool-garments": 60,
+        "stew": 25, "furniture": 65, "roof-tiles": 70
+      },
+      "enteloot": { "rate": 10000, "amount": 50 }
+    }
+  },
+  "nodes": {
+    "N1": { "type": "fields", "resource": "wheat", "yield": 6, "gather-time": 2 }
+  },
+  "routes": [
+    { "between": ["Demacia", "N1"], "weight": 2, "toll": 0 },
+    { "between": ["Demacia", "Piltover"], "weight": 3, "toll": 0 }
+  ]
+}

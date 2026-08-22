@@ -1,0 +1,32 @@
+{
+  "resources": {
+    "wheat": {
+      "sell_price": 2,
+      "buy_price": 4
+    },
+    "wood": {
+      "sell_price": 3,
+      "buy_price": 5
+    },
+    "stone": {
+      "sell_price": 3,
+      "buy_price": 5
+    },
+    "clay": {
+      "sell_price": 4,
+      "buy_price": 6
+    },
+    "fish": {
+      "sell_price": 4,
+      "buy_price": 6
+    },
+    "sheep": {
+      "sell_price": 5,
+      "buy_price": 8
+    },
+    "ore": {
+      "sell_price": 6,
+      "buy_price": null
+    }
+  }
+}

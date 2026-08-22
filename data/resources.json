@@ -1,0 +1,83 @@
+{
+  "_note": "Age of Enteland — global constants shared across every level. Source of truth for resource prices, node types, recipes, construction components, upgrades and tools. Per-level data (run params, towns, nodes, routes) lives in level/level{N}.json. All values are transcribed directly from problem_statement/hackathon.md.",
+  "constants": {
+    "craft_time_base": 2,
+    "craft_time_affinity": 1,
+    "invalid_action_ticks": 1,
+    "upkeep_action_ticks": 5,
+    "upkeep_boost_multiplier": 2,
+    "upkeep_boost_duration_ticks": 50,
+    "sell_bonus_multiplier": 1.5,
+    "rounding": "floor",
+    "min_travel_ticks": 1,
+    "min_gather_ticks": 1
+  },
+  "level_unlocks": {
+    "1": ["travel", "buy", "sell", "gather"],
+    "2": ["craft", "build", "recipes", "construction_components", "production_upgrades", "civic_upgrades"],
+    "3": ["fast_routes", "mine_nodes", "ore", "iron-fittings", "tools", "police-station"],
+    "4": ["upkeep"]
+  },
+  "resources": {
+    "wheat": { "sell_price": 2, "buy_price": 4 },
+    "wood": { "sell_price": 3, "buy_price": 5 },
+    "stone": { "sell_price": 3, "buy_price": 5 },
+    "clay": { "sell_price": 4, "buy_price": 6 },
+    "fish": { "sell_price": 4, "buy_price": 6 },
+    "sheep": { "sell_price": 5, "buy_price": 8 },
+    "ore": { "sell_price": 6, "buy_price": null }
+  },
+  "node_types": {
+    "fields": { "resource": "wheat", "gather_time": 2 },
+    "forest": { "resource": "wood", "gather_time": 2 },
+    "quarry": { "resource": "stone", "gather_time": 2 },
+    "clay-pit": { "resource": "clay", "gather_time": 2 },
+    "fishing-grounds": { "resource": "fish", "gather_time": 2 },
+    "pasture": { "resource": "sheep", "gather_time": 2 },
+    "mine": { "resource": "ore", "gather_time": 3, "min_level": 3 }
+  },
+  "recipes": {
+    "bread": { "inputs": { "wheat": 3 }, "craft_time": 2, "sellable": true, "sell_range": [10, 40] },
+    "fish-n-chips": { "inputs": { "fish": 2, "wheat": 1 }, "craft_time": 2, "sellable": true, "sell_range": [10, 50] },
+    "stew": { "inputs": { "sheep": 1, "fish": 1, "wheat": 1 }, "craft_time": 2, "sellable": true, "sell_range": [25, 50] },
+    "wooden-crafts": { "inputs": { "wood": 4 }, "craft_time": 2, "sellable": true, "sell_range": [10, 50] },
+    "furniture": { "inputs": { "wood": 3, "sheep": 1 }, "craft_time": 2, "sellable": true, "sell_range": [35, 65] },
+    "stone-works": { "inputs": { "stone": 5 }, "craft_time": 2, "sellable": true, "sell_range": [20, 60] },
+    "roof-tiles": { "inputs": { "clay": 3, "stone": 2 }, "craft_time": 2, "sellable": true, "sell_range": [40, 70] },
+    "wool-garments": { "inputs": { "sheep": 3 }, "craft_time": 2, "sellable": true, "sell_range": [30, 60] },
+    "pottery": { "inputs": { "clay": 4, "wood": 1 }, "craft_time": 2, "sellable": true, "sell_range": [50, 70] }
+  },
+  "components": {
+    "planks": { "inputs": { "wood": 2 }, "craft_time": 2, "sellable": false },
+    "thatch": { "inputs": { "wheat": 2 }, "craft_time": 2, "sellable": false },
+    "stone-blocks": { "inputs": { "stone": 3 }, "craft_time": 2, "sellable": false },
+    "mortar": { "inputs": { "clay": 1, "stone": 1 }, "craft_time": 2, "sellable": false },
+    "bricks": { "inputs": { "clay": 2, "mortar": 1 }, "craft_time": 2, "sellable": false },
+    "rope": { "inputs": { "sheep": 2 }, "craft_time": 2, "sellable": false },
+    "fencing": { "inputs": { "wood": 2, "rope": 1 }, "craft_time": 2, "sellable": false },
+    "kiln-glass": { "inputs": { "clay": 2, "wood": 2 }, "craft_time": 2, "sellable": false },
+    "nets": { "inputs": { "rope": 1, "fencing": 1 }, "craft_time": 2, "sellable": false },
+    "iron-fittings": { "inputs": { "ore": 2, "wood": 1 }, "craft_time": 2, "sellable": false, "min_level": 3 }
+  },
+  "upgrades": {
+    "production": {
+      "farmhouse": { "boosts": "sheep", "components": { "planks": 3, "thatch": 2 }, "enteloot_cost": 500, "build_time": 3, "prerequisite": null, "score_value": 1000, "min_level": 2, "effect": { "type": "production_double", "resource": "sheep" } },
+      "pier": { "boosts": "fish", "components": { "planks": 4, "nets": 2 }, "enteloot_cost": 600, "build_time": 3, "prerequisite": null, "score_value": 1000, "min_level": 2, "effect": { "type": "production_double", "resource": "fish" } },
+      "fertilised-fields": { "boosts": "wheat", "components": { "fencing": 2, "thatch": 2 }, "enteloot_cost": 500, "build_time": 3, "prerequisite": null, "score_value": 1000, "min_level": 2, "effect": { "type": "production_double", "resource": "wheat" } },
+      "quarry": { "boosts": "stone", "components": { "stone-blocks": 3, "planks": 2 }, "enteloot_cost": 600, "build_time": 3, "prerequisite": null, "score_value": 1000, "min_level": 2, "effect": { "type": "production_double", "resource": "stone" } },
+      "woodlands": { "boosts": "wood", "components": { "fencing": 2, "rope": 2 }, "enteloot_cost": 500, "build_time": 3, "prerequisite": null, "score_value": 1000, "min_level": 2, "effect": { "type": "production_double", "resource": "wood" } },
+      "pottery-house": { "boosts": "clay", "components": { "bricks": 4, "planks": 2 }, "enteloot_cost": 700, "build_time": 3, "prerequisite": null, "score_value": 1000, "min_level": 2, "effect": { "type": "production_double", "resource": "clay" } }
+    },
+    "civic": {
+      "rec-center": { "components": { "planks": 4, "bricks": 3, "rope": 1 }, "enteloot_cost": 1200, "build_time": 4, "prerequisite": { "type": "any_production_upgrades", "count": 1 }, "score_value": 3000, "min_level": 2, "effect": { "type": "enteloot_amount_pct", "value": 0.20 } },
+      "fire-station": { "components": { "bricks": 5, "stone-blocks": 3, "rope": 2 }, "enteloot_cost": 1800, "build_time": 4, "prerequisite": { "type": "any_production_upgrades", "count": 2 }, "score_value": 4000, "min_level": 2, "effect": { "type": "upkeep_boost_duration_pct", "value": 0.50 } },
+      "school": { "components": { "bricks": 6, "planks": 3, "kiln-glass": 2 }, "enteloot_cost": 2000, "build_time": 5, "prerequisite": { "type": "specific_upgrade", "upgrade": "rec-center" }, "score_value": 5000, "min_level": 2, "effect": { "type": "enteloot_amount_pct", "value": 0.50 } },
+      "police-station": { "components": { "bricks": 6, "stone-blocks": 4, "iron-fittings": 2 }, "enteloot_cost": 2200, "build_time": 5, "prerequisite": { "type": "specific_upgrade", "upgrade": "fire-station" }, "score_value": 5000, "min_level": 3, "effect": { "type": "enteloot_rate_delta", "value": -2, "min": 1 } },
+      "library": { "components": { "bricks": 5, "planks": 5, "kiln-glass": 2 }, "enteloot_cost": 2500, "build_time": 5, "prerequisite": { "type": "specific_upgrade", "upgrade": "school" }, "score_value": 6000, "min_level": 2, "effect": { "type": "enteloot_amount_pct", "value": 0.50 } }
+    }
+  },
+  "tools": {
+    "boots": { "inputs": { "iron-fittings": 2, "rope": 2 }, "once_per_run": true, "min_level": 3, "effect": { "type": "travel_time_delta", "value": -1, "min": 1 } },
+    "pickaxe": { "inputs": { "iron-fittings": 2, "planks": 2 }, "once_per_run": true, "min_level": 3, "effect": { "type": "gather_time_delta", "value": -1, "min": 1 } }
+  }
+}
