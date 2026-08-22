@@ -373,9 +373,9 @@ class SmartLevel2Solver:
         # Phase 1.5: Build tools (Level 3+)
         self.build_tools()
 
-        # List of all towns to develop
+        # List of all towns to develop, sorted by enteloot rate (lower is better for passive income)
         all_towns = list(self.level.towns.keys())
-        all_towns.sort(key=lambda t: self.d(self.level.starting_town, t))
+        all_towns.sort(key=lambda t: self.level.towns[t].enteloot_rate)
 
         # Phase 2: Systematic Infrastructure Development across ALL 10 towns
         prod_upgrades_order = [
@@ -425,126 +425,85 @@ class SmartLevel2Solver:
                     break
                 self.build_upgrade(town_id, up)
 
-        # Phase 3: High-Profit Crafting & Selling in Late Game
-        print(f"[SOLVER] Upgrades complete! Liquidating all remaining materials. Ticks remaining: {self._remaining_ticks()}")
+        # Phase 3: Massive Endgame Grind
+        print(f"[SOLVER] Upgrades complete! Starting massive endgame grind. Ticks remaining: {self._remaining_ticks()}")
         self._sync_trickle()
 
-        aff_town = self._nearest_affinity_town(self.sim.player.position) or "Demacia"
-        if self.d(self.sim.player.position, aff_town) < self._remaining_ticks() - 20:
-            self.travel_to(aff_town)
-
-        # 1. Stew (1 sheep, 1 fish, 1 wheat)
-        self._sync_trickle()
-        stew_count = min(
-            self.sim.player.inventory.get("sheep", 0),
-            self.sim.player.inventory.get("fish", 0),
-            self.sim.player.inventory.get("wheat", 0)
-        )
-        if stew_count > 0 and self._remaining_ticks() > stew_count + 15:
-            self._apply_action({"type": "craft", "item": "stew", "quantity": stew_count})
-            best_t = self._best_sell_town("stew", aff_town) or aff_town
-            if self.d(aff_town, best_t) < self._remaining_ticks() - 5:
-                self.travel_to(best_t)
-                self._apply_action({"type": "sell", "item": "stew", "quantity": stew_count})
-                if self.d(best_t, aff_town) < self._remaining_ticks() - 5:
-                    self.travel_to(aff_town)
-
-        # 2. Stone-works (5 stone)
-        self._sync_trickle()
-        stone_qty = self.sim.player.inventory.get("stone", 0)
-        if stone_qty >= 5:
-            sw_count = min(stone_qty // 5, self._remaining_ticks() - 20)
-            if sw_count > 0:
-                self._apply_action({"type": "craft", "item": "stone-works", "quantity": sw_count})
-                best_t = self._best_sell_town("stone-works", aff_town) or aff_town
-                if self.d(aff_town, best_t) < self._remaining_ticks() - 5:
-                    self.travel_to(best_t)
-                    self._apply_action({"type": "sell", "item": "stone-works", "quantity": sw_count})
-                    if self.d(best_t, aff_town) < self._remaining_ticks() - 5:
-                        self.travel_to(aff_town)
-
-        # 3. Fish-n-chips (2 fish, 1 wheat)
-        self._sync_trickle()
-        fnc_count = min(
-            self.sim.player.inventory.get("fish", 0) // 2,
-            self.sim.player.inventory.get("wheat", 0)
-        )
-        if fnc_count > 0 and self._remaining_ticks() > fnc_count + 15:
-            fnc_count = min(fnc_count, self._remaining_ticks() - 20)
-            if fnc_count > 0:
-                self._apply_action({"type": "craft", "item": "fish-n-chips", "quantity": fnc_count})
-                best_t = self._best_sell_town("fish-n-chips", aff_town) or aff_town
-                if self.d(aff_town, best_t) < self._remaining_ticks() - 5:
-                    self.travel_to(best_t)
-                    self._apply_action({"type": "sell", "item": "fish-n-chips", "quantity": fnc_count})
-                    if self.d(best_t, aff_town) < self._remaining_ticks() - 5:
-                        self.travel_to(aff_town)
-
-        # 4. Bread (3 wheat)
-        self._sync_trickle()
-        wheat_qty = self.sim.player.inventory.get("wheat", 0)
-        if wheat_qty >= 3:
-            b_count = min(wheat_qty // 3, self._remaining_ticks() - 20)
-            if b_count > 0:
-                self._apply_action({"type": "craft", "item": "bread", "quantity": b_count})
-                best_t = self._best_sell_town("bread", aff_town) or aff_town
-                if self.d(aff_town, best_t) < self._remaining_ticks() - 5:
-                    self.travel_to(best_t)
-                    self._apply_action({"type": "sell", "item": "bread", "quantity": b_count})
-                    if self.d(best_t, aff_town) < self._remaining_ticks() - 5:
-                        self.travel_to(aff_town)
-
-        # 5. Wool-garments (3 sheep)
-        self._sync_trickle()
-        sheep_qty = self.sim.player.inventory.get("sheep", 0)
-        if sheep_qty >= 3:
-            wg_count = min(sheep_qty // 3, self._remaining_ticks() - 20)
-            if wg_count > 0:
-                self._apply_action({"type": "craft", "item": "wool-garments", "quantity": wg_count})
-                best_t = self._best_sell_town("wool-garments", aff_town) or aff_town
-                if self.d(aff_town, best_t) < self._remaining_ticks() - 5:
-                    self.travel_to(best_t)
-                    self._apply_action({"type": "sell", "item": "wool-garments", "quantity": wg_count})
-                    if self.d(best_t, aff_town) < self._remaining_ticks() - 5:
-                        self.travel_to(aff_town)
-
-        # 6. Gather and craft stone-works loop until tick ~4980
-        while self._remaining_ticks() > 30:
-            cur_pos = self.sim.player.position
-            target_node = self._nearest_node_for("stone", cur_pos)
-            target_town = self._nearest_affinity_town(cur_pos) or list(self.level.towns.keys())[0]
-            if not target_node:
-                break
-            d_to_node = self.d(cur_pos, target_node)
-            d_node_town = self.d(target_node, target_town)
-            if d_to_node + d_node_town + 5 > self._remaining_ticks():
-                break
-            if not self.travel_to(target_node):
-                break
-            rem = self._remaining_ticks()
-            avail = rem - d_node_town - 5
-            if avail <= 0:
-                break
-            num_gathers = min(avail // 4, 30)
-            if num_gathers <= 0:
-                break
-            for _ in range(num_gathers):
-                if not self._apply_action({"type": "gather"}):
+        best_yield_nodes = {}
+        for nid, n in self.level.nodes.items():
+            r = n.resource
+            y = n.yield_
+            if r not in best_yield_nodes or y > best_yield_nodes[r][1]:
+                best_yield_nodes[r] = (nid, y)
+                
+        best_val = 0
+        best_plan = None
+        
+        for rec_name, rec in data.RECIPES.items():
+            if not rec.get("sellable"): continue
+            g_ticks = 0
+            possible = True
+            req_nodes = {}
+            for inp, qty in rec["inputs"].items():
+                if inp not in best_yield_nodes:
+                    possible = False
                     break
-            if self.d(target_node, target_town) <= self._remaining_ticks() - 2:
-                self.travel_to(target_town)
-                self._sync_trickle()
-                st_qty = self.sim.player.inventory.get("stone", 0)
-                if st_qty >= 5:
-                    craft_n = min(st_qty // 5, self._remaining_ticks() - 3)
-                    if craft_n > 0:
-                        self._apply_action({"type": "craft", "item": "stone-works", "quantity": craft_n})
-                        if self._remaining_ticks() >= 1:
-                            self._apply_action({"type": "sell", "item": "stone-works", "quantity": craft_n})
-            else:
-                break
+                nid, y = best_yield_nodes[inp]
+                req_nodes[inp] = (nid, y, qty)
+                g_ticks += qty / y
+            if not possible: continue
+            
+            for tname, town in self.level.towns.items():
+                price = town.item_rates.get(rec_name, 0)
+                c_ticks = 1 if town.has_affinity("crafting") else 2
+                val_per_tick = price / (g_ticks + c_ticks)
+                if val_per_tick > best_val:
+                    best_val = val_per_tick
+                    best_plan = {
+                        "recipe": rec_name,
+                        "town": tname,
+                        "nodes": req_nodes,
+                        "c_ticks": c_ticks
+                    }
+                    
+        if best_plan:
+            nodes_to_visit = list(set(info[0] for info in best_plan["nodes"].values()))
+            path_nodes = []
+            cur = self.sim.player.position
+            unvisited = list(nodes_to_visit)
+            travel_ticks = 0
+            while unvisited:
+                nxt = min(unvisited, key=lambda n: self.d(cur, n))
+                travel_ticks += self.d(cur, nxt)
+                path_nodes.append(nxt)
+                unvisited.remove(nxt)
+                cur = nxt
+                
+            travel_ticks += self.d(cur, best_plan["town"])
+            rem_ticks = self._remaining_ticks() - travel_ticks - 100
+            
+            if rem_ticks > 0:
+                g_ticks_per_p = sum(info[2]/info[1] for info in best_plan["nodes"].values())
+                ticks_per_p = best_plan["c_ticks"] + g_ticks_per_p
+                P = int(rem_ticks / ticks_per_p)
+                
+                if P > 0:
+                    for nid in path_nodes:
+                        self.travel_to(nid)
+                        for res, info in best_plan["nodes"].items():
+                            if info[0] == nid:
+                                qty_needed = info[2] * P
+                                gathers_needed = math.ceil(qty_needed / info[1])
+                                for _ in range(gathers_needed):
+                                    if not self._apply_action({"type": "gather"}):
+                                        break
+                                        
+                    self.travel_to(best_plan["town"])
+                    self._apply_action({"type": "craft", "item": best_plan["recipe"], "quantity": P})
+                    self._apply_action({"type": "sell", "item": best_plan["recipe"], "quantity": P})
 
-        # Final Sell of all remaining raw resources at current town if at a town
+        # Final Sell of all remaining raw resources
+        
         cur = self.sim.player.position
         if cur not in self.level.towns:
             town_dest = self._nearest_affinity_town(cur) or "Demacia"
