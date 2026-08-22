@@ -1,0 +1,938 @@
+{
+  "run": {
+    "total_ticks": 50000,
+    "starting_town": "T0",
+    "starting_enteloot": 1000
+  },
+  "towns": {
+    "T0": {
+      "production": {
+        "rate": 87,
+        "resources": {
+          "wheat": 2
+        }
+      },
+      "upgrades": [],
+      "affinities": [],
+      "item-rates": {
+        "bread": 30,
+        "fish-n-chips": 34,
+        "stew": 44,
+        "wooden-crafts": 49,
+        "furniture": 37,
+        "stone-works": 54,
+        "roof-tiles": 70,
+        "wool-garments": 40,
+        "pottery": 64
+      },
+      "enteloot": {
+        "rate": 140,
+        "amount": 50
+      }
+    },
+    "T1": {
+      "production": {
+        "rate": 156,
+        "resources": {
+          "wheat": 2
+        }
+      },
+      "upgrades": [],
+      "affinities": [],
+      "item-rates": {
+        "bread": 23,
+        "fish-n-chips": 22,
+        "stew": 32,
+        "wooden-crafts": 48,
+        "furniture": 39,
+        "stone-works": 60,
+        "roof-tiles": 69,
+        "wool-garments": 39,
+        "pottery": 59
+      },
+      "enteloot": {
+        "rate": 78,
+        "amount": 50
+      }
+    },
+    "T2": {
+      "production": {
+        "rate": 142,
+        "resources": {
+          "wheat": 2
+        }
+      },
+      "upgrades": [],
+      "affinities": [
+        "crafting"
+      ],
+      "item-rates": {
+        "bread": 38,
+        "fish-n-chips": 19,
+        "stew": 36,
+        "wooden-crafts": 21,
+        "furniture": 50,
+        "stone-works": 47,
+        "roof-tiles": 55,
+        "wool-garments": 41,
+        "pottery": 62
+      },
+      "enteloot": {
+        "rate": 78,
+        "amount": 50
+      }
+    },
+    "T3": {
+      "production": {
+        "rate": 112,
+        "resources": {
+          "wheat": 2
+        }
+      },
+      "upgrades": [],
+      "affinities": [
+        "crafting"
+      ],
+      "item-rates": {
+        "bread": 21,
+        "fish-n-chips": 43,
+        "stew": 38,
+        "wooden-crafts": 14,
+        "furniture": 55,
+        "stone-works": 24,
+        "roof-tiles": 63,
+        "wool-garments": 53,
+        "pottery": 68
+      },
+      "enteloot": {
+        "rate": 161,
+        "amount": 50
+      }
+    },
+    "T4": {
+      "production": {
+        "rate": 71,
+        "resources": {
+          "wheat": 2
+        }
+      },
+      "upgrades": [],
+      "affinities": [],
+      "item-rates": {
+        "bread": 19,
+        "fish-n-chips": 13,
+        "stew": 49,
+        "wooden-crafts": 37,
+        "furniture": 40,
+        "stone-works": 59,
+        "roof-tiles": 44,
+        "wool-garments": 44,
+        "pottery": 56
+      },
+      "enteloot": {
+        "rate": 76,
+        "amount": 50
+      }
+    },
+    "T5": {
+      "production": {
+        "rate": 167,
+        "resources": {
+          "wheat": 2
+        }
+      },
+      "upgrades": [],
+      "affinities": [],
+      "item-rates": {
+        "bread": 38,
+        "fish-n-chips": 38,
+        "stew": 34,
+        "wooden-crafts": 45,
+        "furniture": 55,
+        "stone-works": 57,
+        "roof-tiles": 51,
+        "wool-garments": 53,
+        "pottery": 58
+      },
+      "enteloot": {
+        "rate": 82,
+        "amount": 50
+      }
+    },
+    "T6": {
+      "production": {
+        "rate": 121,
+        "resources": {
+          "wheat": 2
+        }
+      },
+      "upgrades": [],
+      "affinities": [],
+      "item-rates": {
+        "bread": 15,
+        "fish-n-chips": 35,
+        "stew": 25,
+        "wooden-crafts": 46,
+        "furniture": 42,
+        "stone-works": 35,
+        "roof-tiles": 65,
+        "wool-garments": 53,
+        "pottery": 68
+      },
+      "enteloot": {
+        "rate": 64,
+        "amount": 50
+      }
+    },
+    "T7": {
+      "production": {
+        "rate": 156,
+        "resources": {
+          "wheat": 2
+        }
+      },
+      "upgrades": [],
+      "affinities": [
+        "crafting"
+      ],
+      "item-rates": {
+        "bread": 26,
+        "fish-n-chips": 24,
+        "stew": 36,
+        "wooden-crafts": 38,
+        "furniture": 36,
+        "stone-works": 55,
+        "roof-tiles": 62,
+        "wool-garments": 42,
+        "pottery": 63
+      },
+      "enteloot": {
+        "rate": 102,
+        "amount": 50
+      }
+    },
+    "T8": {
+      "production": {
+        "rate": 67,
+        "resources": {
+          "wheat": 2
+        }
+      },
+      "upgrades": [],
+      "affinities": [],
+      "item-rates": {
+        "bread": 13,
+        "fish-n-chips": 29,
+        "stew": 30,
+        "wooden-crafts": 35,
+        "furniture": 35,
+        "stone-works": 21,
+        "roof-tiles": 40,
+        "wool-garments": 49,
+        "pottery": 51
+      },
+      "enteloot": {
+        "rate": 126,
+        "amount": 50
+      }
+    },
+    "T9": {
+      "production": {
+        "rate": 108,
+        "resources": {
+          "wheat": 2
+        }
+      },
+      "upgrades": [],
+      "affinities": [
+        "crafting"
+      ],
+      "item-rates": {
+        "bread": 16,
+        "fish-n-chips": 30,
+        "stew": 42,
+        "wooden-crafts": 20,
+        "furniture": 50,
+        "stone-works": 60,
+        "roof-tiles": 44,
+        "wool-garments": 45,
+        "pottery": 67
+      },
+      "enteloot": {
+        "rate": 65,
+        "amount": 50
+      }
+    },
+    "T10": {
+      "production": {
+        "rate": 197,
+        "resources": {
+          "wheat": 2
+        }
+      },
+      "upgrades": [],
+      "affinities": [
+        "crafting"
+      ],
+      "item-rates": {
+        "bread": 17,
+        "fish-n-chips": 13,
+        "stew": 37,
+        "wooden-crafts": 49,
+        "furniture": 55,
+        "stone-works": 35,
+        "roof-tiles": 68,
+        "wool-garments": 33,
+        "pottery": 60
+      },
+      "enteloot": {
+        "rate": 121,
+        "amount": 50
+      }
+    },
+    "T11": {
+      "production": {
+        "rate": 194,
+        "resources": {
+          "wheat": 2
+        }
+      },
+      "upgrades": [],
+      "affinities": [],
+      "item-rates": {
+        "bread": 11,
+        "fish-n-chips": 32,
+        "stew": 34,
+        "wooden-crafts": 13,
+        "furniture": 64,
+        "stone-works": 47,
+        "roof-tiles": 64,
+        "wool-garments": 49,
+        "pottery": 64
+      },
+      "enteloot": {
+        "rate": 131,
+        "amount": 50
+      }
+    },
+    "T12": {
+      "production": {
+        "rate": 192,
+        "resources": {
+          "wheat": 2
+        }
+      },
+      "upgrades": [],
+      "affinities": [
+        "crafting"
+      ],
+      "item-rates": {
+        "bread": 28,
+        "fish-n-chips": 25,
+        "stew": 40,
+        "wooden-crafts": 20,
+        "furniture": 56,
+        "stone-works": 21,
+        "roof-tiles": 68,
+        "wool-garments": 50,
+        "pottery": 57
+      },
+      "enteloot": {
+        "rate": 141,
+        "amount": 50
+      }
+    },
+    "T13": {
+      "production": {
+        "rate": 95,
+        "resources": {
+          "wheat": 2
+        }
+      },
+      "upgrades": [],
+      "affinities": [
+        "crafting"
+      ],
+      "item-rates": {
+        "bread": 11,
+        "fish-n-chips": 42,
+        "stew": 49,
+        "wooden-crafts": 11,
+        "furniture": 47,
+        "stone-works": 57,
+        "roof-tiles": 60,
+        "wool-garments": 54,
+        "pottery": 51
+      },
+      "enteloot": {
+        "rate": 185,
+        "amount": 50
+      }
+    },
+    "T14": {
+      "production": {
+        "rate": 79,
+        "resources": {
+          "wheat": 2
+        }
+      },
+      "upgrades": [],
+      "affinities": [
+        "crafting"
+      ],
+      "item-rates": {
+        "bread": 25,
+        "fish-n-chips": 45,
+        "stew": 42,
+        "wooden-crafts": 32,
+        "furniture": 38,
+        "stone-works": 27,
+        "roof-tiles": 59,
+        "wool-garments": 60,
+        "pottery": 57
+      },
+      "enteloot": {
+        "rate": 149,
+        "amount": 50
+      }
+    }
+  },
+  "nodes": {
+    "N0": {
+      "type": "mine",
+      "resource": "ore",
+      "yield": 5,
+      "gather-time": 3
+    },
+    "N1": {
+      "type": "mine",
+      "resource": "ore",
+      "yield": 6,
+      "gather-time": 3
+    },
+    "N2": {
+      "type": "mine",
+      "resource": "ore",
+      "yield": 5,
+      "gather-time": 3
+    },
+    "N3": {
+      "type": "fields",
+      "resource": "wheat",
+      "yield": 9,
+      "gather-time": 2
+    },
+    "N4": {
+      "type": "forest",
+      "resource": "wood",
+      "yield": 6,
+      "gather-time": 2
+    },
+    "N5": {
+      "type": "quarry",
+      "resource": "stone",
+      "yield": 8,
+      "gather-time": 2
+    },
+    "N6": {
+      "type": "clay-pit",
+      "resource": "clay",
+      "yield": 6,
+      "gather-time": 2
+    },
+    "N7": {
+      "type": "fishing-grounds",
+      "resource": "fish",
+      "yield": 6,
+      "gather-time": 2
+    },
+    "N8": {
+      "type": "pasture",
+      "resource": "sheep",
+      "yield": 5,
+      "gather-time": 2
+    },
+    "N9": {
+      "type": "clay-pit",
+      "resource": "clay",
+      "yield": 7,
+      "gather-time": 2
+    },
+    "N10": {
+      "type": "clay-pit",
+      "resource": "clay",
+      "yield": 8,
+      "gather-time": 2
+    },
+    "N11": {
+      "type": "forest",
+      "resource": "wood",
+      "yield": 10,
+      "gather-time": 2
+    },
+    "N12": {
+      "type": "fields",
+      "resource": "wheat",
+      "yield": 6,
+      "gather-time": 2
+    },
+    "N13": {
+      "type": "pasture",
+      "resource": "sheep",
+      "yield": 10,
+      "gather-time": 2
+    },
+    "N14": {
+      "type": "quarry",
+      "resource": "stone",
+      "yield": 5,
+      "gather-time": 2
+    },
+    "N15": {
+      "type": "clay-pit",
+      "resource": "clay",
+      "yield": 9,
+      "gather-time": 2
+    },
+    "N16": {
+      "type": "clay-pit",
+      "resource": "clay",
+      "yield": 10,
+      "gather-time": 2
+    },
+    "N17": {
+      "type": "clay-pit",
+      "resource": "clay",
+      "yield": 4,
+      "gather-time": 2
+    },
+    "N18": {
+      "type": "quarry",
+      "resource": "stone",
+      "yield": 8,
+      "gather-time": 2
+    },
+    "N19": {
+      "type": "fishing-grounds",
+      "resource": "fish",
+      "yield": 10,
+      "gather-time": 2
+    },
+    "N20": {
+      "type": "pasture",
+      "resource": "sheep",
+      "yield": 8,
+      "gather-time": 2
+    }
+  },
+  "routes": [
+    {
+      "between": [
+        "T6",
+        "N9"
+      ],
+      "weight": 5,
+      "toll": 0
+    },
+    {
+      "between": [
+        "N9",
+        "N11"
+      ],
+      "weight": 5,
+      "toll": 0
+    },
+    {
+      "between": [
+        "N11",
+        "T2"
+      ],
+      "weight": 7,
+      "toll": 0
+    },
+    {
+      "between": [
+        "T2",
+        "T7"
+      ],
+      "weight": 13,
+      "toll": 0
+    },
+    {
+      "between": [
+        "T7",
+        "T12"
+      ],
+      "weight": 7,
+      "toll": 0
+    },
+    {
+      "between": [
+        "T12",
+        "N6"
+      ],
+      "weight": 17,
+      "toll": 0
+    },
+    {
+      "between": [
+        "N6",
+        "T14"
+      ],
+      "weight": 7,
+      "toll": 0
+    },
+    {
+      "between": [
+        "T14",
+        "T0"
+      ],
+      "weight": 20,
+      "toll": 0
+    },
+    {
+      "between": [
+        "T0",
+        "N14"
+      ],
+      "weight": 10,
+      "toll": 0
+    },
+    {
+      "between": [
+        "N14",
+        "N12"
+      ],
+      "weight": 12,
+      "toll": 0
+    },
+    {
+      "between": [
+        "N12",
+        "T1"
+      ],
+      "weight": 18,
+      "toll": 0
+    },
+    {
+      "between": [
+        "T1",
+        "T3"
+      ],
+      "weight": 6,
+      "toll": 0
+    },
+    {
+      "between": [
+        "T3",
+        "N15"
+      ],
+      "weight": 9,
+      "toll": 0
+    },
+    {
+      "between": [
+        "N15",
+        "T11"
+      ],
+      "weight": 20,
+      "toll": 0
+    },
+    {
+      "between": [
+        "T11",
+        "N1"
+      ],
+      "weight": 18,
+      "toll": 0
+    },
+    {
+      "between": [
+        "N1",
+        "N18"
+      ],
+      "weight": 11,
+      "toll": 0
+    },
+    {
+      "between": [
+        "N18",
+        "N17"
+      ],
+      "weight": 15,
+      "toll": 0
+    },
+    {
+      "between": [
+        "N17",
+        "N19"
+      ],
+      "weight": 15,
+      "toll": 0
+    },
+    {
+      "between": [
+        "N19",
+        "N2"
+      ],
+      "weight": 11,
+      "toll": 0
+    },
+    {
+      "between": [
+        "N2",
+        "T5"
+      ],
+      "weight": 7,
+      "toll": 0
+    },
+    {
+      "between": [
+        "T5",
+        "N20"
+      ],
+      "weight": 19,
+      "toll": 0
+    },
+    {
+      "between": [
+        "N20",
+        "N0"
+      ],
+      "weight": 10,
+      "toll": 0
+    },
+    {
+      "between": [
+        "N0",
+        "N8"
+      ],
+      "weight": 7,
+      "toll": 0
+    },
+    {
+      "between": [
+        "N8",
+        "N3"
+      ],
+      "weight": 19,
+      "toll": 0
+    },
+    {
+      "between": [
+        "N3",
+        "N13"
+      ],
+      "weight": 13,
+      "toll": 0
+    },
+    {
+      "between": [
+        "N13",
+        "T8"
+      ],
+      "weight": 10,
+      "toll": 0
+    },
+    {
+      "between": [
+        "T8",
+        "N16"
+      ],
+      "weight": 5,
+      "toll": 0
+    },
+    {
+      "between": [
+        "N16",
+        "N10"
+      ],
+      "weight": 12,
+      "toll": 0
+    },
+    {
+      "between": [
+        "N10",
+        "N7"
+      ],
+      "weight": 12,
+      "toll": 0
+    },
+    {
+      "between": [
+        "N7",
+        "T13"
+      ],
+      "weight": 16,
+      "toll": 0
+    },
+    {
+      "between": [
+        "T13",
+        "N4"
+      ],
+      "weight": 18,
+      "toll": 0
+    },
+    {
+      "between": [
+        "N4",
+        "T4"
+      ],
+      "weight": 13,
+      "toll": 0
+    },
+    {
+      "between": [
+        "T4",
+        "T9"
+      ],
+      "weight": 19,
+      "toll": 0
+    },
+    {
+      "between": [
+        "T9",
+        "T10"
+      ],
+      "weight": 11,
+      "toll": 0
+    },
+    {
+      "between": [
+        "T10",
+        "N5"
+      ],
+      "weight": 8,
+      "toll": 0
+    },
+    {
+      "between": [
+        "N15",
+        "N17"
+      ],
+      "weight": 13,
+      "toll": 0
+    },
+    {
+      "between": [
+        "T4",
+        "N11"
+      ],
+      "weight": 7,
+      "toll": 0
+    },
+    {
+      "between": [
+        "T8",
+        "N10"
+      ],
+      "weight": 7,
+      "toll": 0
+    },
+    {
+      "between": [
+        "N0",
+        "T9"
+      ],
+      "weight": 7,
+      "toll": 0
+    },
+    {
+      "between": [
+        "T7",
+        "N18"
+      ],
+      "weight": 9,
+      "toll": 0
+    },
+    {
+      "between": [
+        "N1",
+        "T7"
+      ],
+      "weight": 17,
+      "toll": 0
+    },
+    {
+      "between": [
+        "N5",
+        "T14"
+      ],
+      "weight": 9,
+      "toll": 0
+    },
+    {
+      "between": [
+        "T4",
+        "N3"
+      ],
+      "weight": 19,
+      "toll": 0
+    },
+    {
+      "between": [
+        "T11",
+        "T3"
+      ],
+      "weight": 19,
+      "toll": 0
+    },
+    {
+      "between": [
+        "N14",
+        "N6"
+      ],
+      "weight": 5,
+      "toll": 0
+    },
+    {
+      "between": [
+        "N2",
+        "T11"
+      ],
+      "weight": 5,
+      "toll": 18
+    },
+    {
+      "between": [
+        "T13",
+        "N19"
+      ],
+      "weight": 3,
+      "toll": 24
+    },
+    {
+      "between": [
+        "T14",
+        "N13"
+      ],
+      "weight": 2,
+      "toll": 27
+    },
+    {
+      "between": [
+        "N18",
+        "T5"
+      ],
+      "weight": 4,
+      "toll": 34
+    },
+    {
+      "between": [
+        "T3",
+        "N3"
+      ],
+      "weight": 5,
+      "toll": 32
+    },
+    {
+      "between": [
+        "N10",
+        "T11"
+      ],
+      "weight": 5,
+      "toll": 32
+    }
+  ]
+}
